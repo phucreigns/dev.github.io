@@ -25,7 +25,8 @@ body {
     color: var(--text-primary);
     line-height: 1.6;
     overflow-x: hidden;
-    background: var(--bg-primary);
+    background: linear-gradient(to right, #000000 0%, #1e3a8a 50%, #3b82f6 100%);
+    min-height: 100vh;
 }
 
 .container {
@@ -384,7 +385,7 @@ section {
 
 /* About Section */
 .about {
-    background: var(--bg-primary);
+    background: transparent;
 }
 
 .about-content {
@@ -436,7 +437,7 @@ section {
 
 /* Skills Section */
 .skills {
-    background: var(--bg-secondary);
+    background: transparent;
 }
 
 .skills-grid {
@@ -571,7 +572,7 @@ section {
 
 /* Projects Section */
 .projects {
-    background: var(--bg-secondary);
+    background: transparent;
 }
 
 .projects-grid {
@@ -705,7 +706,7 @@ section {
 
 /* Contact Section */
 .contact {
-    background: var(--bg-primary);
+    background: transparent;
 }
 
 .contact-subtitle {
